@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -f src/*.html src/*.c
+rm -f *.so
+rm -rf build
+./setup.py build_ext --inplace
+
